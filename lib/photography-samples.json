@@ -1,0 +1,23 @@
+{
+  "blue-elegant": {
+    "id": "sample:blue-elegant:v1",
+    "path": "/samples/elegant.webp",
+    "sha256": "f42f3cd08e0fc1baa9627508767abe92e57f7370056a404e2f4b61c7415d54bf",
+    "width": 750,
+    "height": 1000
+  },
+  "blue-business": {
+    "id": "sample:blue-business:v1",
+    "path": "/samples/business.webp",
+    "sha256": "146fc35ea1180c8c86cb4eb766ffdbb80e0a314470378642aa09807b9c6c2cae",
+    "width": 750,
+    "height": 1000
+  },
+  "warm-editorial": {
+    "id": "sample:warm-editorial:v1",
+    "path": "/samples/editorial.webp",
+    "sha256": "4f2ac533545f5db0968263921e84bd21c8942bc9fba478c7b9c073b5663e611e",
+    "width": 750,
+    "height": 1000
+  }
+}

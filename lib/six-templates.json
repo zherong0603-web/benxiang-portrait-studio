@@ -1,0 +1,260 @@
+[
+  {
+    "id": "M01",
+    "name": "稳重管理者",
+    "en": "STEADY EXECUTIVE",
+    "audience": "male",
+    "category": "portrait",
+    "background": "solid color",
+    "wardrobe": "not applicable to this fixture",
+    "color": "#515662",
+    "image": "/samples/six-v1/M01.jpg",
+    "description": "合成几何占位图，用于演示",
+    "sample": {
+      "id": "six-v1-M01",
+      "path": "/samples/six-v1/M01.jpg",
+      "sha256": "2e58fb62bb54f4ebdfbb5802d9ed1dfb5655e3c9a0865f799a407d663b3c19ea",
+      "width": 1344,
+      "height": 1792
+    },
+    "photography": {
+      "framing": "vertical 3:4 canvas",
+      "poses": [
+        "geometric arrangement"
+      ],
+      "expression": "not applicable",
+      "lighting": "flat color",
+      "background": "solid color",
+      "wardrobeOptions": [
+        {
+          "id": "template",
+          "label": "演示占位",
+          "prompt": "Synthetic fixture; no clothing direction.",
+          "isSample": true
+        }
+      ]
+    },
+    "photographyPrompt": "Synthetic geometric test fixture.",
+    "provenance": {
+      "fictional": true,
+      "stage": "synthetic-demo",
+      "personId": null,
+      "sourceFile": "samples/six-v1/M01.jpg"
+    }
+  },
+  {
+    "id": "M02",
+    "name": "清爽衬衫",
+    "en": "CRISP SHIRT",
+    "audience": "male",
+    "category": "portrait",
+    "background": "solid color",
+    "wardrobe": "not applicable to this fixture",
+    "color": "#76787e",
+    "image": "/samples/six-v1/M02.jpg",
+    "description": "合成几何占位图，用于演示",
+    "sample": {
+      "id": "six-v1-M02",
+      "path": "/samples/six-v1/M02.jpg",
+      "sha256": "b9337f0073833942cd9c83de04a4b9747e74893f8e0d4ac90f434ac3f2b6fb18",
+      "width": 1344,
+      "height": 1792
+    },
+    "photography": {
+      "framing": "vertical 3:4 canvas",
+      "poses": [
+        "geometric arrangement"
+      ],
+      "expression": "not applicable",
+      "lighting": "flat color",
+      "background": "solid color",
+      "wardrobeOptions": [
+        {
+          "id": "template",
+          "label": "演示占位",
+          "prompt": "Synthetic fixture; no clothing direction.",
+          "isSample": true
+        }
+      ]
+    },
+    "photographyPrompt": "Synthetic geometric test fixture.",
+    "provenance": {
+      "fictional": true,
+      "stage": "synthetic-demo",
+      "personId": null,
+      "sourceFile": "samples/six-v1/M02.jpg"
+    }
+  },
+  {
+    "id": "M03",
+    "name": "轻商务亲和",
+    "en": "RELAXED BUSINESS",
+    "audience": "male",
+    "category": "portrait",
+    "background": "solid color",
+    "wardrobe": "not applicable to this fixture",
+    "color": "#526a7e",
+    "image": "/samples/six-v1/M03.jpg",
+    "description": "合成几何占位图，用于演示",
+    "sample": {
+      "id": "six-v1-M03",
+      "path": "/samples/six-v1/M03.jpg",
+      "sha256": "9bbe7329003b7ad9d79ac292a82abcc08be74baf423056141790ab118cccab0b",
+      "width": 1344,
+      "height": 1792
+    },
+    "photography": {
+      "framing": "vertical 3:4 canvas",
+      "poses": [
+        "geometric arrangement"
+      ],
+      "expression": "not applicable",
+      "lighting": "flat color",
+      "background": "solid color",
+      "wardrobeOptions": [
+        {
+          "id": "template",
+          "label": "演示占位",
+          "prompt": "Synthetic fixture; no clothing direction.",
+          "isSample": true
+        }
+      ]
+    },
+    "photographyPrompt": "Synthetic geometric test fixture.",
+    "provenance": {
+      "fictional": true,
+      "stage": "synthetic-demo",
+      "personId": null,
+      "sourceFile": "samples/six-v1/M03.jpg"
+    }
+  },
+  {
+    "id": "F01",
+    "name": "极简职业",
+    "en": "MINIMAL PROFESSIONAL",
+    "audience": "female",
+    "category": "portrait",
+    "background": "solid color",
+    "wardrobe": "not applicable to this fixture",
+    "color": "#6e737f",
+    "image": "/samples/six-v1/F01.jpg",
+    "description": "合成几何占位图，用于演示",
+    "sample": {
+      "id": "six-v1-F01",
+      "path": "/samples/six-v1/F01.jpg",
+      "sha256": "29ef79d20d899879538fd1ed241aa2783fe7f60e4661eafbcf8bff6df85266f1",
+      "width": 1344,
+      "height": 1792
+    },
+    "photography": {
+      "framing": "vertical 3:4 canvas",
+      "poses": [
+        "geometric arrangement"
+      ],
+      "expression": "not applicable",
+      "lighting": "flat color",
+      "background": "solid color",
+      "wardrobeOptions": [
+        {
+          "id": "template",
+          "label": "演示占位",
+          "prompt": "Synthetic fixture; no clothing direction.",
+          "isSample": true
+        }
+      ]
+    },
+    "photographyPrompt": "Synthetic geometric test fixture.",
+    "provenance": {
+      "fictional": true,
+      "stage": "synthetic-demo",
+      "personId": null,
+      "sourceFile": "samples/six-v1/F01.jpg"
+    }
+  },
+  {
+    "id": "F02",
+    "name": "明亮亲和",
+    "en": "BRIGHT AND APPROACHABLE",
+    "audience": "female",
+    "category": "portrait",
+    "background": "solid color",
+    "wardrobe": "not applicable to this fixture",
+    "color": "#46748a",
+    "image": "/samples/six-v1/F02.jpg",
+    "description": "合成几何占位图，用于演示",
+    "sample": {
+      "id": "six-v1-F02",
+      "path": "/samples/six-v1/F02.jpg",
+      "sha256": "bb597a95bf87e542553e245d64bdec770a3fc6d123c120c202c804c6b3ceabde",
+      "width": 1344,
+      "height": 1792
+    },
+    "photography": {
+      "framing": "vertical 3:4 canvas",
+      "poses": [
+        "geometric arrangement"
+      ],
+      "expression": "not applicable",
+      "lighting": "flat color",
+      "background": "solid color",
+      "wardrobeOptions": [
+        {
+          "id": "template",
+          "label": "演示占位",
+          "prompt": "Synthetic fixture; no clothing direction.",
+          "isSample": true
+        }
+      ]
+    },
+    "photographyPrompt": "Synthetic geometric test fixture.",
+    "provenance": {
+      "fictional": true,
+      "stage": "synthetic-demo",
+      "personId": null,
+      "sourceFile": "samples/six-v1/F02.jpg"
+    }
+  },
+  {
+    "id": "F04",
+    "name": "暖调日常",
+    "en": "WARM EVERYDAY",
+    "audience": "female",
+    "category": "portrait",
+    "background": "solid color",
+    "wardrobe": "not applicable to this fixture",
+    "color": "#76604b",
+    "image": "/samples/six-v1/F04.jpg",
+    "description": "合成几何占位图，用于演示",
+    "sample": {
+      "id": "six-v1-F04",
+      "path": "/samples/six-v1/F04.jpg",
+      "sha256": "16541ef22396bedcb970121492d7bd0773e354d6bd2fbadf8b5d531ef8c44063",
+      "width": 1344,
+      "height": 1792
+    },
+    "photography": {
+      "framing": "vertical 3:4 canvas",
+      "poses": [
+        "geometric arrangement"
+      ],
+      "expression": "not applicable",
+      "lighting": "flat color",
+      "background": "solid color",
+      "wardrobeOptions": [
+        {
+          "id": "template",
+          "label": "演示占位",
+          "prompt": "Synthetic fixture; no clothing direction.",
+          "isSample": true
+        }
+      ]
+    },
+    "photographyPrompt": "Synthetic geometric test fixture.",
+    "provenance": {
+      "fictional": true,
+      "stage": "synthetic-demo",
+      "personId": null,
+      "sourceFile": "samples/six-v1/F04.jpg"
+    }
+  }
+]

@@ -1,0 +1,39 @@
+declare namespace Cloudflare {
+  interface Env {
+    PORTRAIT_EXECUTION_MODE?: string;
+    PORTRAIT_GENERATION_OWNER_IDS?: string;
+    ARK_API_KEY?: string;
+    PORTRAIT_AUTHORIZED_PROVIDER?: string;
+    PORTRAIT_EXTERNAL_CALLS_AUTHORIZED?: string;
+    PORTRAIT_PROVIDER_ACCOUNT_VERIFIED?: string;
+    PORTRAIT_CALL_COST_VERIFIED?: string;
+    PORTRAIT_WORKER_SECRET?: string;
+    PORTRAIT_WEB_TEST_SCOPE?: string;
+    PORTRAIT_GENERATION_PILOT_JSON?: string;
+    PORTRAIT_GENERATION_ENABLED?: string;
+    PORTRAIT_PROVIDER?: string;
+    PORTRAIT_MODEL?: string;
+    PORTRAIT_BUDGET_CURRENCY?: string;
+    PORTRAIT_BUDGET_MICRO_CNY?: string;
+    PORTRAIT_CALL_MAX_MICRO_CNY?: string;
+    PORTRAIT_BUDGET_MICRO_USD?: string;
+    PORTRAIT_CALL_MAX_MICRO_USD?: string;
+    DB?: D1Database;
+    BUCKET?: R2Bucket;
+    COMMERCE_MODE?: string;
+    COMMERCE_LIVE_ENABLED?: string;
+    COMMERCE_CATALOG_JSON?: string;
+    COMMERCE_OPERATOR_IDS?: string;
+    COMMERCE_ALLOWED_ORIGIN?: string;
+    COMMERCE_PAYMENT_PROVIDER?: string;
+    STRIPE_SECRET_KEY?: string;
+    STRIPE_WEBHOOK_SECRET?: string;
+    WECHAT_APP_ID?: string;
+    WECHAT_MCH_ID?: string;
+    WECHAT_MCH_SERIAL?: string;
+    WECHAT_PRIVATE_KEY?: string;
+    WECHAT_API_V3_KEY?: string;
+    WECHAT_PLATFORM_KEY_ID?: string;
+    WECHAT_PLATFORM_PUBLIC_KEY?: string;
+  }
+}
