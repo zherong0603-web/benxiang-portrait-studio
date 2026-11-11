@@ -22,3 +22,15 @@ npm run qa:local
 ```
 
 The HTTP suite builds the Worker, creates temporary local D1/R2 stores, and exercises the upload, creation, review, delivery, and disabled payment/generation flows. It uses loopback fixtures and removes its temporary stores afterward. It does not check live payments, model output, or portrait likeness.
+
+## 代码审计阅读顺序
+
+| 问题 | 起点 |
+| --- | --- |
+| 工作台如何上传、选款和显示进度？ | `components/studio.tsx`、`components/portrait-experience.tsx` |
+| 创建任务、计费保护、生成和恢复如何连接？ | `app/api/creations/`、`lib/creations.ts`、`lib/hosted-generation.ts`、`lib/generation-budget.ts` |
+| 图片如何存储和授权下载？ | `db/schema.ts`、`lib/privacy.ts`、`app/api/assets/`、`drizzle/` |
+| 订单、支付与回调的代码在哪里？ | `lib/commerce.ts`、`lib/payment-provider.ts`、`app/api/orders/` |
+| 哪些结论可以由回归检查支持？ | `scripts/product/`；本版使用合成素材和中性配方，不能用于评估真实提示词、真人相似度或线上交易。 |
+
+维护者在同一 GitHub 账号下提供单独的私有审计仓。具备访问权限的审查者从私有仓的 `AUDIT_START.md` 开始核对真实配方和验证记录。
